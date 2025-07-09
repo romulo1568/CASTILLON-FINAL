@@ -1,7 +1,7 @@
 import sql from 'mssql';
 
 const config: sql.config = {
-    server: '26.139.230.239',
+    server: '0.tcp.sa.ngrok.io',
     database: 'db_econo',
     user: 'romulo',
     password: '123123',
@@ -9,7 +9,7 @@ const config: sql.config = {
         encrypt: false,
         trustServerCertificate: true,
         enableArithAbort: true,
-        port: 1433,
+        port: 16342,
         connectTimeout: 30000,
         requestTimeout: 30000
     }

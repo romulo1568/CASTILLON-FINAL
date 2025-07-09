@@ -127,7 +127,7 @@ export default function Login() {
             </form>
 
             <div className="mt-6 text-center text-sm text-gray-500">
-              <p>Conectado a: 26.139.230.239</p>
+              <p>Conectado a: tcp://0.tcp.sa.ngrok.io:16342</p>
               <p>Base de datos: db_econo</p>
               <p>Esquema: MiCable</p>
               <p className="mt-2">Ingrese sus credenciales del sistema</p>
